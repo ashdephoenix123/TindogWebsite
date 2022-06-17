@@ -63,3 +63,15 @@ a:hover{
 #footer{
   padding: 4% 5% 0;
 }
+
+/* inmobile */
+@media (max-width:1028px){
+  #header{
+    padding: 5% 12% 0;
+  }
+  .formbox{
+    width: 80%;
+    margin: 6%;
+      }
+
+}
