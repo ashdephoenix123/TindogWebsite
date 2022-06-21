@@ -1,0 +1,85 @@
+/* image */
+.logo{
+  width: 20%;
+}
+
+/* class */
+.editextbox{
+  width: 80%;
+}
+.formbox{
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.3);
+  border-radius: 3%;
+  width: 35%;
+  display: inline-block;
+  padding: 2% 0;
+}
+.inside-content{
+  margin: 3% auto 0;
+}
+.signin-button{
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  background-color: #519259;
+  border: none;
+  font-size: 18px;
+}
+.signin-button:hover{
+  background-color: #446A46; //519259
+  transition: 0.5s;
+  transform: scale(1.01);
+}
+.signin-button:focus{
+    /* outline-color: transparent; */
+    background-color: #446A46;
+    transition: 0.3s;
+    box-shadow: 0 0 0 0.1rem #446A46; //#068932
+}
+.inside-header{
+  text-align: left;
+  margin: 2% 10%;
+}
+.password-padding{
+  margin-bottom: 0!important;
+}
+.footer-link{
+  padding: 0 1%;
+  font-size: 13px;
+  text-decoration: none;
+  color: #7F8487;
+  font-weight: 400;
+}
+.link:hover{
+  text-decoration: underline;
+  color: #7F8487;
+}
+a{
+  color: #068932;
+}
+a:hover{
+  color: #446A46;
+}
+
+/* IDs */
+#inside, #footer{
+  text-align: center;
+}
+#inside, #header{
+  padding: 1% 5%;
+}
+#footer{
+  padding: 4% 5% 0;
+}
+
+/* inmobile */
+@media (max-width:1028px){
+  #header{
+    padding: 5% 12% 0;
+  }
+  .formbox{
+    width: 80%;
+    margin: 6%;
+      }
+
+}
